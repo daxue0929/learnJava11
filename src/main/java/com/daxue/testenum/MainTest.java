@@ -12,6 +12,11 @@ public class MainTest {
     public static void main(String[] args) {
         String name = Type.RED.name();
         System.out.println(name);
+
+        Type[] values = Type.values();
+
+        Type red = Type.valueOf("RED"); // return "RED"
+
         Map<String, Object> oldMap = Map.of(
             "testKey", "value",
             "testKey1", "value1",
