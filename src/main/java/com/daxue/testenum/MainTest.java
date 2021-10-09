@@ -24,9 +24,10 @@ public class MainTest {
             "testKey", "value-default",
             "testKey1", "value-1");
 
+        // 测试一下putAll的功能:关于更新的时候，可以使用此种方式。
         newMap.putAll(objectModel);
 
-        System.out.println(newMap.toString());
+        System.out.println(newMap);
 
     }
 }
